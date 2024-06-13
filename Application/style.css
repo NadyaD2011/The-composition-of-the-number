@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+    width: 100%;
+    --black: #060505;
+    --white: #ffffff;
+    --light_pink: #f8bbd0;
+    --light_blue: #6184cb;
+    --milk_white: #f3f3f3;
+    --green: #01ff20;
+    --red: #ff0000;
+}
+
+body{
+    background-color: var(--milk_white);
+    text: var(--black);
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40px;
+    color: var(--light_pink)
+}
+img{
+    width: 50px;
+    height: 50px;
+}
